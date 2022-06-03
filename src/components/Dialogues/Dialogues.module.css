@@ -1,0 +1,35 @@
+.content {
+    grid-area: content;
+    background-color: cornflowerblue;
+  }
+  
+  .dialogues{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    margin: 10px;
+  }
+
+  .dialogues_names{
+    padding: 10px;
+  }
+
+  .dialogues .dialog_name{
+    padding: 10px;
+  }
+
+  .dialogues_names .active{
+    color: gold;
+  }
+
+  .messages{
+    padding: 10px;
+  }
+
+  .messages .message{
+    padding: 10px;
+  }
+
+  .dialogues_names a{
+    text-decoration: none;
+    color: black;
+  }

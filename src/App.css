@@ -11,23 +11,10 @@
    grid-gap: 5px; 
 }
 
-.header{
-  grid-area: header;
-  background-color: green;
-}
-.header img{
-  width: 4rem;
-  padding: 3px 1px 3px 3px;
-}
+.app-wrapper-content {
+      grid-area: content;
+    background-color: cornflowerblue;
+  }
+  
 
-.nav {
-  grid-area: nav;
-  background-color: burlywood;
-}
-
-.content {
-  grid-area: content;
-  background-color: cornflowerblue;
-}
-
-
+  
